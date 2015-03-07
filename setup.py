@@ -18,7 +18,7 @@
 from setuptools import setup
 import re
 
-with open("rack-ddnsm/version.py", "rt") as vfile:
+with open("rackddnsm/version.py", "rt") as vfile:
     version_text = vfile.read()
 vmatch = re.search(r'version ?= ?"(.+)"$', version_text)
 version = vmatch.groups()[0]
