@@ -24,7 +24,7 @@ vmatch = re.search(r'version ?= ?"(.+)"$', version_text)
 version = vmatch.groups()[0]
 
 setup(
-    name="rack-ddnsm",
+    name="rackddnsm",
     version=version,
     description="Python language bindings for Encore.",
     author="Alex Edwards",
@@ -41,6 +41,6 @@ setup(
         "dnspython>=1.12.0"
     ],
     packages=[
-        "rack-ddnsm",
+        "rackddnsm",
     ]
 )
