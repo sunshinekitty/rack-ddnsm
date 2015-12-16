@@ -5,7 +5,7 @@ Manages TXT records containing metadata in the format of `title,desc,data`.  eg 
 ### Installation
 
 ```bash
-~# pip install git@github.com:sunshinekitty/rack-ddnsm.git
+~# pip install -U git+https://github.com/sunshinekitty/rack-ddnsm.git
 ```
 
 ### Usage
